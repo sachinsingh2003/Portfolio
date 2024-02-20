@@ -1,0 +1,142 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: linear-gradient(to right, #fc5c7d, #6a82fb);
+}
+.container{
+     /* border: 2px solid black; */
+    display: flex ;
+    box-shadow: 2px 2px 10px black;
+    width: 85%;
+    height: 90%;
+    border-radius: 10px;
+    background-color:rgb(201, 196, 196);
+}
+
+.info_container{
+    /* border: 2px red solid; */
+    width: 38%; 
+    height: 85%;
+    margin-top: 3%;
+    margin-left: 10%;
+    border-radius: 10px;
+}
+.image_container{
+    /* border: 2px violet solid; */
+    width: 38%;
+    height: 85%;
+    margin-top: 3%;
+    margin-left: 5%;
+    border-radius: 10px;
+}
+.abt{
+    width: 370px;
+    height: 380px;
+    padding: 10px;
+    border-radius: 50% 20%;
+    box-shadow:3px 3px 5px yellow;
+    margin-left: 15px;
+    margin-top: 20px;
+    transition: tranform 3s;
+}
+.abt:hover{
+    transform: scale(1.1);
+}
+@media screen and (min-width:1200px) {
+    .container{
+        width: 80%;
+        height: 85%;
+    }
+    .abt{
+        width: 400px;
+        height: 410px;
+    }
+}
+@media screen and (max-width:900px) {
+    .container{
+        width: 680px;
+        height: 580px;
+    }
+    .info_container{
+        width: 45%;
+        margin-left: 20px;
+    }
+    .image_container{
+        width: 45%;
+        margin-right: 20px;
+    }
+    .abt{
+        margin-top: 80px;
+        width: 250px;
+        height: 250px;
+    }
+    .info_container heading{
+        font-size: 25px;
+    }
+}
+.heading{
+    /* border: 2px green solid; */
+    margin-top: 5px;
+    text-align: center;
+    font-size: 50px;
+    font-family:'Crimson Pro';
+    color: orange;
+    text-shadow: 2px 2px 10px rgb(15, 12, 1);
+    display: block;
+}
+.name{
+    font-size: 35px;
+    text-shadow: 2px 2px 15px rgb(33, 30, 30) ;
+    text-indent: 2px;
+    /* border: 2px solid red; */
+    margin-top: 2px;
+    display: flex;
+    color: red;
+    font-family: 'Crimson Pro';
+    font-weight: bold;
+}
+.info{
+    text-indent: 2px;
+    font-size: 23px;
+    font-weight: bold;
+    color: blue;
+    /* border: 2px solid red; */
+    margin: 2px;
+    letter-spacing: 2px;
+    font-family: 'Crimson Pro';
+}
+.detail{
+    text-indent: 2px;
+    color: rgb(73, 70, 70);
+    margin: 2px;
+    /* border: 2px solid red; */
+    margin-top: 5px;
+    letter-spacing: 2px;
+    font-family: 'Crimson Pro';
+}
+.btn{
+    border: 2px solid;
+    font-size: 20px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px black;
+    color: white;
+    background-color: rgb(232, 110, 66);
+}
+.btn:hover{
+    background-color: orangered;
+}
+.bck_btn{
+   font-size: 15px ;
+   color: white;
+   border-radius: 7px;
+   background-color: #3B5998;
+   box-shadow: 2px 2px 10px black;
+}
+.bck_btn:hover{
+    background-color: #124bc5 ;
+}

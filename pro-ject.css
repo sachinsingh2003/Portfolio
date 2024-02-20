@@ -1,0 +1,142 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: scroll;
+    background-image: linear-gradient(to right, #fc5c7d, #6a82fb);
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(230px ,1fr)) ;
+    grid-gap: 15px;
+    grid-auto-rows: minmax(100px,auto);
+    grid-auto-columns: minmax(50px ,auto);
+    column-gap: 6px;
+    row-gap: 1px;
+}
+.dbb{
+    background-color:rgb(201, 196, 196);
+    /* border: 2px solid red; */
+}
+#box2{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    box-shadow: 2px 2px 10px black;
+    border-radius: 10px;
+    margin-top: 10px;
+    grid-column-start: 1;
+    grid-column-end: 9;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 45px;
+    color: red;
+    text-shadow: 2px 2px 7px black;
+}
+#box2 p{
+    font-size: 12px;
+    color: black;
+    text-shadow: none;
+    font-weight: normal;
+    word-spacing: 6px;
+}
+#box3{
+    box-shadow: 2px 2px 10px black;
+    border-radius: 10px;
+    grid-column-start: 1;
+    grid-column-end: 9;
+    grid-row-start: 2;
+    grid-row-end: 7;
+    position: relative;
+    display: flex;
+    justify-content:center;
+    flex-wrap: wrap;
+}
+@media screen and (max-width:900px) {
+  #box2{
+    font-size: 35px;
+    grid-column-start:0;
+    grid-column-end: 5;
+  }
+  #box3{
+    grid-column-end: 5;
+  }
+  #box2 p{
+    word-spacing: 3px;
+    font-size: 10px;
+  }
+}
+.card{
+    width: 22rem;
+    height: 10rem;
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px yellow;
+}
+.card img{
+    width: calc(22rem - 8rem);
+    height: 8rem;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    box-shadow: 2px 2px 10px red;
+}
+.card-img-top{
+  transition: transform 1s;
+}
+.card-img-top:hover{
+  transform: scale(1.2);
+}
+.card-title{
+  font-weight: bold;
+  font-size: 25px;
+  color: blue;
+  font-family:cursive;
+  position: absolute;
+  left: 20px;
+}
+.card-body a{
+  width: 50px;
+  font-size: 15px;
+  padding: 2px;
+  display: flex;
+  position: absolute;
+  left: 190px;
+  top: 185px;
+  border-radius: 10px;
+  font-weight: bold;
+  background-color: green;
+}
+
+@media screen and (max-width:900px) {
+  .card{
+    width: 13rem;
+    margin: 2rem;
+  }
+  .card img{
+    width: 10rem;
+    height: 8rem;
+  }
+  .card-title{
+    font-size: 15px ;
+    font-weight: bold;
+  }
+  .card-body a{
+    font-size: 10px;
+    position: absolute;
+    left: 130px;
+  }
+  .card-text{
+    display: inline;
+  }
+}
+
+
+
+
