@@ -3,9 +3,9 @@ import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 
-import iot from "../../Assets/Projects/iot.png";
-import resume from "../../Assets/Projects/resume.png";
-import rfid from "../../Assets/Projects/rfid.jfif";
+import iot from "../../Assets/Project/iot.png";
+import resume from "../../Assets/Project/resume.png";
+import rfid from "../../Assets/Project/rfid.jfif";
 
 function Projects() {
   return (

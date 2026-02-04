@@ -160,8 +160,8 @@ button:focus {
 }
 
 .logo {
-  height: 1.4em !important;
-  width: 2.5em !important;
+  height: 4em !important;
+  width: 4em !important;
 }
 
 .navbar-nav .nav-link {
@@ -575,6 +575,12 @@ button:focus {
   transition: outline-color 0.3s, outline-width 0.3s, transform 0.3s;
   color: white;
 }
+.tech-icons img {
+  width: 55px;        /* control size here */
+  height: 55px;
+  object-fit: contain;
+}
+
 
 .tech-icons-text {
   display: flex;

@@ -10,8 +10,8 @@ import PHP from "../../Assets/TechIcons/php.png";
 
 import Arduino from "../../Assets/TechIcons/Arduino.png";
 import ESP32 from "../../Assets/TechIcons/esp.png";
-import STM32 from "../../Assets/TechIcons/STM32.svg";
-import Chip from "../../Assets/TechIcons/Microcontroller.svg";
+import STM32 from "../../Assets/TechIcons/Arduino.png";
+import Chip from "../../Assets/TechIcons/Arduino.png";
 
 function Techstack() {
   return (
