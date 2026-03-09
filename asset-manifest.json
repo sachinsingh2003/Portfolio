@@ -1,13 +1,14 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.458056d1.css",
-    "main.js": "/Portfolio/static/js/main.6cbff64e.js",
+    "main.js": "/Portfolio/static/js/main.b1236b32.js",
     "static/js/948.c25afb1f.chunk.js": "/Portfolio/static/js/948.c25afb1f.chunk.js",
     "static/js/488.03d95696.chunk.js": "/Portfolio/static/js/488.03d95696.chunk.js",
     "static/media/resume.png": "/Portfolio/static/media/resume.8aea93158bade83bf544.png",
     "static/media/Sachin_resume.pdf": "/Portfolio/static/media/Sachin_resume.2ff3287bfb5ca2b5ab38.pdf",
     "static/media/home-main.svg": "/Portfolio/static/media/home-main.541f8179af8209ce03ccf2178fe62dbf.svg",
     "static/media/about.png": "/Portfolio/static/media/about.aee0f771fbfc1e7b8fa8.png",
+    "static/media/CAN.jpg": "/Portfolio/static/media/CAN.4650d4c7f67f9f638792.jpg",
     "static/media/proteus.png": "/Portfolio/static/media/proteus.b860c8dfed9355af1569.png",
     "static/media/php.png": "/Portfolio/static/media/php.4990580e9b615aeebb1f.png",
     "static/media/logo.png": "/Portfolio/static/media/logo.3fb8b4acb21963c0f560.png",
@@ -16,21 +17,23 @@
     "static/media/html.png": "/Portfolio/static/media/html.da0054d20efdfbca991b.png",
     "static/media/avatar.svg": "/Portfolio/static/media/avatar.5852f40fbb38aa284829fa3fb7722225.svg",
     "static/media/css.png": "/Portfolio/static/media/css.4a6549b8c2b4cda8bb88.png",
+    "static/media/database.jfif": "/Portfolio/static/media/database.1aeb2b9acead697d9d78.jfif",
     "static/media/SQL.svg": "/Portfolio/static/media/SQL.7fd9bdcee9744b3b731709f2753c68af.svg",
     "static/media/linux.svg": "/Portfolio/static/media/linux.094423b7e272a367fdd7679372e8407b.svg",
     "static/media/rfid.jfif": "/Portfolio/static/media/rfid.c749fe6626e55b57a08c.jfif",
+    "static/media/uart.jfif": "/Portfolio/static/media/uart.7f189bb40651e5a55436.jfif",
     "static/media/vscode.svg": "/Portfolio/static/media/vscode.f5afdf1c4c0b365325db1e067c48782d.svg",
     "static/media/Python.svg": "/Portfolio/static/media/Python.9daed22c470296a63e19d0d509a1828b.svg",
     "static/media/pre.svg": "/Portfolio/static/media/pre.d4812f51c8c80976eaab.svg",
     "index.html": "/Portfolio/index.html",
     "static/media/C++.svg": "/Portfolio/static/media/C++.90772619f39a0a3b04f60ee5c827c002.svg",
     "main.458056d1.css.map": "/Portfolio/static/css/main.458056d1.css.map",
-    "main.6cbff64e.js.map": "/Portfolio/static/js/main.6cbff64e.js.map",
+    "main.b1236b32.js.map": "/Portfolio/static/js/main.b1236b32.js.map",
     "948.c25afb1f.chunk.js.map": "/Portfolio/static/js/948.c25afb1f.chunk.js.map",
     "488.03d95696.chunk.js.map": "/Portfolio/static/js/488.03d95696.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.458056d1.css",
-    "static/js/main.6cbff64e.js"
+    "static/js/main.b1236b32.js"
   ]
 }
