@@ -80,7 +80,8 @@ function Projects() {
               imgPath={gesture}
               isBlog={false}
               title="Real-Time Hand Gesture Controlled Embedded Lighting System"
-              description="This project uses computer vision to control LEDs using hand gestures. A webcam captures the hand movement, and a Python program detects the number of fingers using a hand tracking model. The detected gesture is sent through serial communication to a microcontroller (Arduino/LPC2129), which controls multiple LEDs accordingly. The system demonstrates a simple touchless human–machine interaction using hand gestures."
+              description="This project demonstrates a real-time hand gesture recognition system to control LEDs using computer vision and an ESP8266 module. A webcam captures hand gestures, and a Python program detects the number of fingers using MediaPipe. The detected gesture is then sent wirelessly over WiFi to the ESP8266, which processes the signal and controls multiple LEDs accordingly. This project shows how computer vision and IoT can be combined to create a touchless wireless control system.
+"
               ghLink="https://github.com/sachinsingh2003/Real-Time-Hand-Gesture-Controlled-Embedded-Lighting-System"
             />
           </Col>
